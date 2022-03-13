@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jihoo/static/css/main.cddeb3f7.css",
+    "main.js": "/jihoo/static/js/main.d18c301c.js",
+    "static/js/787.128fc6e9.chunk.js": "/jihoo/static/js/787.128fc6e9.chunk.js",
+    "static/media/photo0.jpg": "/jihoo/static/media/photo0.d58888786e7552817d00.jpg",
+    "static/media/j1h00.jpg": "/jihoo/static/media/j1h00.0129510bd978698e0b93.jpg",
+    "static/media/react.svg": "/jihoo/static/media/react.8e63d418a6421cc2662e234ac8af7313.svg",
+    "static/media/dribbble.svg": "/jihoo/static/media/dribbble.a97b66e1f2be1f38ab5b1203ac1dd2fd.svg",
+    "static/media/css.svg": "/jihoo/static/media/css.560a36650aaffe4bb961fed5cd336892.svg",
+    "static/media/python.svg": "/jihoo/static/media/python.e146c98dc5517bd9c7e63d6f63a6a1df.svg",
+    "static/media/javascript.svg": "/jihoo/static/media/javascript.dce2f7564f0e0b2db77f90d7845cac5d.svg",
+    "static/media/github.svg": "/jihoo/static/media/github.95ad9234e1509d5c93ffe0a9f7eb217a.svg",
+    "index.html": "/jihoo/index.html",
+    "static/media/django.svg": "/jihoo/static/media/django.984c00ac999535542833f6171a1dec4a.svg",
+    "static/media/html.svg": "/jihoo/static/media/html.8e6289ed1eb0b9f348a463db8fa3e38c.svg",
+    "main.cddeb3f7.css.map": "/jihoo/static/css/main.cddeb3f7.css.map",
+    "main.d18c301c.js.map": "/jihoo/static/js/main.d18c301c.js.map",
+    "787.128fc6e9.chunk.js.map": "/jihoo/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cddeb3f7.css",
+    "static/js/main.d18c301c.js"
+  ]
+}
