@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import Layout from "./components/Layout";
+// import SEO from "./components/seo";
+
+// Components
+import Header from "./components/Header";
+import Work from "./components/Work";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Promotion from "./components/Promotion";
+import Footer from "./components/Footer";
+
+// styles
+import "./styles/globals.css";
+import "./styles/mains.scss";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Layout>
+        {/* <SEO title="Portfolio Template" /> */}
+        <Header></Header>
+        <Work></Work>
+        <About></About>
+        <Skills></Skills>
+        <Promotion></Promotion>
+        <Footer></Footer>
+      </Layout>
     </div>
   );
 }
-
-export default App;
