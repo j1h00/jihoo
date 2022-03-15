@@ -1,6 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
+import resumePDF from "../assets/resume.pdf";
 
 const Header = () => {
   return (
@@ -40,8 +41,13 @@ const Header = () => {
             <p>{data.headerParagraph}</p>
           </Fade>
           <Fade bottom>
-            <a href="" className="primary-btn" download>
+            <a
+              href={resumePDF}
+              className="primary-btn flex-center"
+              download="Jihoo_resume.pdf"
+            >
               resume
+              <span className="material-icons-outlined">file_download</span>
             </a>
           </Fade>
         </div>

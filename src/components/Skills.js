@@ -7,12 +7,25 @@ const Skills = () => {
     <div className="section">
       <div className="container">
         <div className="skills-container">
-          <Fade bottom>
+          <Fade bottom cascade>
             <h1>Skills</h1>
             <div className="skills-grid">
               {data.skills.map((skill, index) => (
                 <div className="skill" key={index}>
-                  <img src={skill.img} alt="css" />
+                  <div className="skill-header">
+                    <img src={skill.img} alt="css" />
+                    <div className="progress-background">
+                      <div
+                        className="progress"
+                        style={{
+                          width: 50 + "%",
+                          backgroundColor: skill.color,
+                        }}
+                      >
+                        <span>50%</span>
+                      </div>
+                    </div>
+                  </div>
                   <p>{skill.para}</p>
                 </div>
               ))}

@@ -1,10 +1,20 @@
 // Skills Icons
 import htmlIcon from "./assets/html.svg";
 import cssIcon from "./assets/css.svg";
-import reactIcon from "./assets/react.svg";
 import jsIcon from "./assets/javascript.svg";
+import vueIcon from "./assets/vue.svg";
+import reactIcon from "./assets/react.svg";
+import reduxIcon from "./assets/redux.svg";
+import nextjsIcon from "./assets/nextjs.svg";
 import pythonIcon from "./assets/python.svg";
+import pandasIcon from "./assets/pandas.svg";
 import djangoIcon from "./assets/django.svg";
+import javaIcon from "./assets/java.svg";
+import cIcon from "./assets/c.svg";
+import linuxIcon from "./assets/linux.svg";
+import mysqlIcon from "./assets/mysql.svg";
+import gitIcon from "./assets/git.svg";
+import jiraIcon from "./assets/jira.svg";
 
 // Social Icon
 import githubIcon from "./assets/github.svg";
@@ -28,8 +38,7 @@ export default {
     "박지후입니다.",
   ],
   //   Header Paragraph
-  headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+  headerParagraph: "프론트엔드 개발자가 되기 위해 꾸준히 공부하고 있습니다.",
 
   //Contact Email
   contactEmail: "guruboy@snu.ac.kr / 010-4159-7223",
@@ -57,8 +66,8 @@ export default {
       url: "https://gigantic-bag-3e7.notion.site/Vote24-1476ff878d3640789014d739cb83bc59",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para: "나만의 포트폴리오, animation 을 곁들인", // Add Your Service Type Here
+      title: "portfolio Toy-project", //Project Title - Add Your Project Title Here
+      para: "나만의 포트폴리오, JS & CSS animation 을 곁들인", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: j1h00,
       //Project URL - Add Your Project Url Here
@@ -87,27 +96,83 @@ export default {
     {
       img: htmlIcon,
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      color: "#E34F26",
     },
     {
       img: cssIcon,
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      color: "#1572B6",
     },
     {
       img: jsIcon,
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      color: "#F7DF1E",
+    },
+    {
+      img: vueIcon,
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      color: "#4FC08D",
     },
     {
       img: reactIcon,
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      color: "#61DAFB",
+    },
+    {
+      img: reduxIcon,
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      color: "#764ABC",
+    },
+    {
+      img: nextjsIcon,
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      color: "#000000",
     },
     {
       img: pythonIcon,
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      color: "#3776AB",
     },
     {
       img: djangoIcon,
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      color: "#092E20",
     },
+    // {
+    //   img: pandasIcon,
+    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    //   color: "#150458",
+    // },
+    // {
+    //   img: javaIcon,
+    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    //   color: "#F7DF1E",
+    // },
+    // {
+    //   img: cIcon,
+    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    //   color: "#A8B9CC",
+    // },
+    // {
+    //   img: linuxIcon,
+    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    //   color: "#FCC624",
+    // },
+    // {
+    //   img: mysqlIcon,
+    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    //   color: "#4479A1",
+    // },
+    // {
+    //   img: gitIcon,
+    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    //   color: "#F05032",
+    // },
+    // {
+    //   img: jiraIcon,
+    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    //   color: "#0052CC",
+    // },
   ],
 
   // End Skills Section --------------------------
