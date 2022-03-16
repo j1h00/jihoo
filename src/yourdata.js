@@ -9,12 +9,12 @@ import nextjsIcon from "./assets/nextjs.svg";
 import pythonIcon from "./assets/python.svg";
 import pandasIcon from "./assets/pandas.svg";
 import djangoIcon from "./assets/django.svg";
-import javaIcon from "./assets/java.svg";
-import cIcon from "./assets/c.svg";
-import linuxIcon from "./assets/linux.svg";
-import mysqlIcon from "./assets/mysql.svg";
-import gitIcon from "./assets/git.svg";
-import jiraIcon from "./assets/jira.svg";
+// import javaIcon from "./assets/java.svg";
+// import cIcon from "./assets/c.svg";
+// import linuxIcon from "./assets/linux.svg";
+// import mysqlIcon from "./assets/mysql.svg";
+// import gitIcon from "./assets/git.svg";
+// import jiraIcon from "./assets/jira.svg";
 
 // Social Icon
 import githubIcon from "./assets/github.svg";
@@ -38,7 +38,8 @@ export default {
     "박지후입니다.",
   ],
   //   Header Paragraph
-  headerParagraph: "프론트엔드 개발자가 되기 위해 꾸준히 공부하고 있습니다.",
+  headerParagraph:
+    "현재 프론트엔드 개발을 꾸준히 공부하고 있습니다. 새로운 지식을 습득하는 것을 좋아하며, 개발자로서 성장할 수 있는 환경에서 일하고 싶습니다.",
 
   //Contact Email
   contactEmail: "guruboy@snu.ac.kr / 010-4159-7223",
@@ -97,81 +98,97 @@ export default {
       img: htmlIcon,
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       color: "#E34F26",
+      level: 50,
     },
     {
       img: cssIcon,
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "원하는 레이아웃을 구성할 수 있으며, CSS selector, animation, media query 등을 활용할 수 있습니다. 또한 bootstrap, tailwind CSS 라이브러리를 경험해봤습니다.",
       color: "#1572B6",
+      level: 50,
     },
     {
       img: jsIcon,
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "기본적인 DOM 조작, AJAX 통신, Concurrency model, Callback 함수, variable hoisting 에 대한 이해와, Promise 객체, async & await, Class 등의 javascript ES6 문법에 대해서도 알고 활용할 수 있습니다.",
       color: "#F7DF1E",
+      level: 75,
     },
     {
       img: vueIcon,
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "Vue의 ViewModel로서의 역할, Vue 인스턴스의 Lifecycle 등 공식 문서에 명시된 필수 지식에 대해 알고 있으며, Vue Router, Vuex 라이브러리를 이해하고 사용할 수 있습니다.",
       color: "#4FC08D",
+      level: 75,
     },
     {
       img: reactIcon,
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "UI 를 컴포넌트로 계층화하여 구현할 수 있고, react lifecycle 에 대해 알고 있으며, state & effect hook 을 활용하고 custom hook 을 정의할 수 있습니다. ",
       color: "#61DAFB",
+      level: 50,
     },
     {
       img: reduxIcon,
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: 'redux 의 필요성, Flux architecture & "one-way data flow" 을 이해했습니다. store 와 reducer 를 선언하여 상태관리에 사용할 수 있고, react-redux 와 redux-toolkit 을 경험했습니다. ',
       color: "#764ABC",
+      level: 50,
     },
     {
       img: nextjsIcon,
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       color: "#000000",
+      level: 50,
     },
     {
       img: pythonIcon,
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       color: "#3776AB",
+      level: 50,
     },
     {
       img: djangoIcon,
       para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
       color: "#092E20",
+      level: 50,
     },
     // {
     //   img: pandasIcon,
     //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     //   color: "#150458",
+    //  level: 50,
     // },
     // {
     //   img: javaIcon,
     //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     //   color: "#F7DF1E",
+    //  level: 50,
     // },
     // {
     //   img: cIcon,
     //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     //   color: "#A8B9CC",
+    //  level: 50,
     // },
     // {
     //   img: linuxIcon,
     //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     //   color: "#FCC624",
+    //  level: 50,
     // },
     // {
     //   img: mysqlIcon,
     //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     //   color: "#4479A1",
+    //  level: 50,
     // },
     // {
     //   img: gitIcon,
     //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     //   color: "#F05032",
+    //  level: 50,
     // },
     // {
     //   img: jiraIcon,
     //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     //   color: "#0052CC",
+    //  level: 50,
     // },
   ],
 

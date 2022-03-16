@@ -18,11 +18,11 @@ const Skills = () => {
                       <div
                         className="progress"
                         style={{
-                          width: 50 + "%",
+                          width: `${skill.level}` + "%",
                           backgroundColor: skill.color,
                         }}
                       >
-                        <span>50%</span>
+                        <span>{skill.level}%</span>
                       </div>
                     </div>
                   </div>
