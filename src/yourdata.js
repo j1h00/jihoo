@@ -9,11 +9,12 @@ import nextjsIcon from "./assets/nextjs.svg";
 import pythonIcon from "./assets/python.svg";
 import pandasIcon from "./assets/pandas.svg";
 import djangoIcon from "./assets/django.svg";
+import dockerIcon from "./assets/docker.svg";
+import gitIcon from "./assets/git.svg";
 // import javaIcon from "./assets/java.svg";
 // import cIcon from "./assets/c.svg";
 // import linuxIcon from "./assets/linux.svg";
 // import mysqlIcon from "./assets/mysql.svg";
-// import gitIcon from "./assets/git.svg";
 // import jiraIcon from "./assets/jira.svg";
 
 // Social Icon
@@ -39,7 +40,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "현재 프론트엔드 개발을 꾸준히 공부하고 있습니다. 새로운 지식을 습득하는 것을 좋아하며, 개발자로서 성장할 수 있는 환경에서 일하고 싶습니다.",
+    "프론트엔드 개발을 공부하고 있습니다. 새로운 지식을 습득하는 것을 좋아하며, 꾸준히 성장하는 개발자가 되고 싶습니다.",
 
   //Contact Email
   contactEmail: "guruboy@snu.ac.kr / 010-4159-7223",
@@ -126,34 +127,46 @@ export default {
     },
     {
       img: reduxIcon,
-      para: 'redux 의 필요성, Flux architecture & "one-way data flow" 을 이해했습니다. store 와 reducer 를 선언하여 상태관리에 사용할 수 있고, react-redux 와 redux-toolkit 을 경험했습니다. ',
+      para: 'Flux architecture & "one-way data flow" 을 이해했습니다. store 와 reducer 를 선언하여 상태관리에 사용할 수 있고, react-redux 와 redux-toolkit 을 경험했습니다. ',
       color: "#764ABC",
       level: 50,
     },
     {
       img: nextjsIcon,
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "Next.js 를 통한 Static Site Generation, Server Side Rendering 을 이해하고, getStaticProps 와 getServerSideProps 를 활용하여 구현할 수 있습니다.",
       color: "#000000",
       level: 50,
     },
     {
       img: pythonIcon,
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: 'pygame 라이브러리와 객체 지향 프로그래밍을 통해 간단한 게임을 개발해 본 경험이 있으며, 알고리즘 구현을 통해 문제를 해결할 수 있습니다. 또한 "생물학자를 위한 전산학 개론" 강의에서 유전자 데이터를 분석해 본 경험이 있습니다.',
       color: "#3776AB",
       level: 50,
     },
     {
       img: djangoIcon,
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "django REST framework 를 활용할 수 있으며, RESTful API 를 구현할 수 있습니다. User Authentication, 게시글 CRUD 와 같은 기능을 구현할 수 있고, django ORM 으로 원하는 데이터를 불러올 수 있습니다.",
       color: "#092E20",
       level: 50,
     },
-    // {
-    //   img: pandasIcon,
-    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    //   color: "#150458",
-    //  level: 50,
-    // },
+    {
+      img: pandasIcon,
+      para: '새싹(Seoul Software Academy, SeSAC) 의 "공공데이터를 활용한 빅데이터 처리 실무 with Python" 강의를 수료했습니다. 이를 통해 pandas 를 이용한 데이터 분석과 머신러닝을 위한 전처리, 그리고 scikit-learn 라이브러리를 활용한 머신러닝까지 경험했습니다.',
+      color: "#150458",
+      level: 50,
+    },
+    {
+      img: dockerIcon,
+      para: "docker image, container 의 개념을 알고 실행할 수 있습니다. Dockerfile, docker-compose 를 작성할 수 있으며, Next.js, Nginx, Node, MySQL 컨테이너를 구동하여 배포해 본 경험이 있습니다.",
+      color: "#2496ED",
+      level: 50,
+    },
+    {
+      img: gitIcon,
+      para: "Git-flow 브랜치 전략을 도입하여 master, develop, feature 브랜치를 구분하여 관리한 경험이 있고, Jira 연동과 커밋 메세지 컨벤션을 활용하여 팀원들과 협업했습니다. Merge Request 를 통해 팀원들과 서로의 코드를 리뷰하고자 노력했습니다. ",
+      color: "#F05032",
+      level: 50,
+    },
     // {
     //   img: javaIcon,
     //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
@@ -178,12 +191,7 @@ export default {
     //   color: "#4479A1",
     //  level: 50,
     // },
-    // {
-    //   img: gitIcon,
-    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    //   color: "#F05032",
-    //  level: 50,
-    // },
+
     // {
     //   img: jiraIcon,
     //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
