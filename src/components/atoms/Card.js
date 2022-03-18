@@ -7,20 +7,17 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
     const handleMouseOver = () => setValue(true);
     const handleMouseOut = () => setValue(false);
 
-    useEffect(
-      () => {
-        const node = ref.current;
-        if (node) {
-          node.addEventListener("mouseover", handleMouseOver);
-          node.addEventListener("mouseout", handleMouseOut);
-          return () => {
-            node.removeEventListener("mouseover", handleMouseOver);
-            node.removeEventListener("mouseout", handleMouseOut);
-          };
-        }
-      },
-      [ref.current] // Recall only if ref changes
-    );
+    useEffect(() => {
+      const node = ref.current;
+      if (node) {
+        node.addEventListener("mouseover", handleMouseOver);
+        node.addEventListener("mouseout", handleMouseOut);
+        return () => {
+          node.removeEventListener("mouseover", handleMouseOver);
+          node.removeEventListener("mouseout", handleMouseOut);
+        };
+      }
+    }, []);
 
     return [ref, value];
   }
@@ -38,7 +35,11 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
             ")",
         }}
       ></div>
-      <a className="content" href={projectLink ? projectLink : "#"}>
+      <a
+        className="content"
+        href={projectLink ? projectLink : "#"}
+        target="_blank"
+      >
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
         <button rel="noopener noreferrer" className="btn">
