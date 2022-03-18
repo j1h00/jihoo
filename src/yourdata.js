@@ -81,9 +81,9 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    ' 안녕하세요. 신입 소프트웨어 엔지니어 / 프론트엔드 개발 직무 취업을 준비하는 박지후입니다. 생명과학부 전공 강의인 "생명과학자를 위한 전산학 개론"을 통해 처음 프로그래밍을 접하게 되었고, 이에 흥미를 느껴 개발 공부를 시작하게 되었습니다. 졸업 후엔 삼성 청년 SW 아카데미를 통해 웹 개발을 접하게 되었고, 현재는 특히 React 를 비롯한 프론트엔드 기술 공부를 이어가고 있습니다.  ',
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "뛰어난 선배 개발자들 사이에서 많은 것을 배우고 성장하고 싶습니다. ",
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage: photo,
@@ -97,7 +97,7 @@ export default {
   skills: [
     {
       img: htmlIcon,
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "semantic tag 에 대해 이해하고 있으며, 여러 tag 의 종류와 활용할 수 있는 속성들에 대해 알고 있습니다.",
       color: "#E34F26",
       level: 50,
     },
@@ -121,7 +121,7 @@ export default {
     },
     {
       img: reactIcon,
-      para: "UI 를 컴포넌트로 계층화하여 구현할 수 있고, react lifecycle 에 대해 알고 있으며, state & effect hook 을 활용하고 custom hook 을 정의할 수 있습니다. ",
+      para: "UI 를 컴포넌트로 계층화하여 구현할 수 있고, React 컴포넌트의 Lifecycle 에 대해 알고 있으며, state & effect hook 을 활용하고 custom hook 을 정의할 수 있습니다. ",
       color: "#61DAFB",
       level: 50,
     },
@@ -133,7 +133,7 @@ export default {
     },
     {
       img: nextjsIcon,
-      para: "Next.js 를 통한 Static Site Generation, Server Side Rendering 을 이해하고, getStaticProps 와 getServerSideProps 를 활용하여 구현할 수 있습니다.",
+      para: "Next.js 의 getStaticProps 와 getServerSideProps 를 활용하여 Static Site Generation, Server Side Rendering 을 구현하고 서비스를 개발할 수 있습니다.",
       color: "#000000",
       level: 50,
     },

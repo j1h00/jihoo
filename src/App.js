@@ -1,5 +1,4 @@
 import React from "react";
-
 import Layout from "./components/Layout";
 // import SEO from "./components/seo";
 
@@ -13,7 +12,6 @@ import Footer from "./components/Footer";
 
 // styles
 import "./styles/globals.css";
-import "./styles/mains.scss";
 
 export default function App() {
   return (
