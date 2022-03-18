@@ -1,36 +1,32 @@
 {
   "files": {
-    "main.css": "/jihoo/static/css/main.77bfc88a.css",
-    "main.js": "/jihoo/static/js/main.0515605d.js",
+    "main.css": "/jihoo/static/css/main.4c8518ad.css",
+    "main.js": "/jihoo/static/js/main.2ee70b41.js",
     "static/js/787.128fc6e9.chunk.js": "/jihoo/static/js/787.128fc6e9.chunk.js",
     "static/media/photo0.jpg": "/jihoo/static/media/photo0.d58888786e7552817d00.jpg",
-    "static/media/resume.pdf": "/jihoo/static/media/resume.2ca22c659c6138d49655.pdf",
+    "static/media/Jihoo_resume.pdf": "/jihoo/static/media/Jihoo_resume.7375fb659db34a139db8.pdf",
     "static/media/j1h00.jpg": "/jihoo/static/media/j1h00.0129510bd978698e0b93.jpg",
-    "static/media/linux.svg": "/jihoo/static/media/linux.cc964fff474d1d462d25049a26e83830.svg",
-    "static/media/mysql.svg": "/jihoo/static/media/mysql.72bab5fa7feeb9a145757ae05fffc00e.svg",
     "static/media/react.svg": "/jihoo/static/media/react.e94ebdf90bd29efb54e5c723b10e216a.svg",
     "static/media/dribbble.svg": "/jihoo/static/media/dribbble.a97b66e1f2be1f38ab5b1203ac1dd2fd.svg",
+    "static/media/docker.svg": "/jihoo/static/media/docker.43d067489e9779bbb0b6a79a361ea8b6.svg",
     "static/media/python.svg": "/jihoo/static/media/python.cd1e1de5623bcbd8c00476be7777946f.svg",
     "static/media/nextjs.svg": "/jihoo/static/media/nextjs.11c63749b6811983fce045ceb4014626.svg",
     "static/media/redux.svg": "/jihoo/static/media/redux.42b86d5cf7f7898c35dc114eafb49574.svg",
-    "static/media/java.svg": "/jihoo/static/media/java.8aa433a224a3ccdd309e67993876ffbf.svg",
     "static/media/javascript.svg": "/jihoo/static/media/javascript.9f98faed195315832462deb05383c1bd.svg",
     "static/media/github.svg": "/jihoo/static/media/github.95ad9234e1509d5c93ffe0a9f7eb217a.svg",
     "index.html": "/jihoo/index.html",
     "static/media/git.svg": "/jihoo/static/media/git.19064d2f488c9f4fcd25ba3896b0f66a.svg",
     "static/media/django.svg": "/jihoo/static/media/django.0913811929f7c81f3b40863322bfae8c.svg",
-    "static/media/c.svg": "/jihoo/static/media/c.797520509cf8c9829afec70a1bf92ac1.svg",
-    "static/media/jira.svg": "/jihoo/static/media/jira.9298ed8209375bdcb32a2e436fc2c6f0.svg",
     "static/media/pandas.svg": "/jihoo/static/media/pandas.d8cf5ca0d58dc92a4eb9df4bfea257c6.svg",
     "static/media/css.svg": "/jihoo/static/media/css.4a5a82acfffe120744964d95368b9278.svg",
     "static/media/html.svg": "/jihoo/static/media/html.cf23f1e90435a349bd297713a56a4d6f.svg",
     "static/media/vue.svg": "/jihoo/static/media/vue.4b67b3b55026c1904ac85983d391d8ac.svg",
-    "main.77bfc88a.css.map": "/jihoo/static/css/main.77bfc88a.css.map",
-    "main.0515605d.js.map": "/jihoo/static/js/main.0515605d.js.map",
+    "main.4c8518ad.css.map": "/jihoo/static/css/main.4c8518ad.css.map",
+    "main.2ee70b41.js.map": "/jihoo/static/js/main.2ee70b41.js.map",
     "787.128fc6e9.chunk.js.map": "/jihoo/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77bfc88a.css",
-    "static/js/main.0515605d.js"
+    "static/css/main.4c8518ad.css",
+    "static/js/main.2ee70b41.js"
   ]
 }
