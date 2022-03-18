@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jihoo/static/css/main.4646b5b1.css",
-    "main.js": "/jihoo/static/js/main.6a4a5476.js",
+    "main.js": "/jihoo/static/js/main.bad5b543.js",
     "static/js/787.128fc6e9.chunk.js": "/jihoo/static/js/787.128fc6e9.chunk.js",
     "static/media/photo0.jpg": "/jihoo/static/media/photo0.d58888786e7552817d00.jpg",
     "static/media/Jihoo_resume.pdf": "/jihoo/static/media/Jihoo_resume.7375fb659db34a139db8.pdf",
@@ -22,11 +22,11 @@
     "static/media/html.svg": "/jihoo/static/media/html.cf23f1e90435a349bd297713a56a4d6f.svg",
     "static/media/vue.svg": "/jihoo/static/media/vue.4b67b3b55026c1904ac85983d391d8ac.svg",
     "main.4646b5b1.css.map": "/jihoo/static/css/main.4646b5b1.css.map",
-    "main.6a4a5476.js.map": "/jihoo/static/js/main.6a4a5476.js.map",
+    "main.bad5b543.js.map": "/jihoo/static/js/main.bad5b543.js.map",
     "787.128fc6e9.chunk.js.map": "/jihoo/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4646b5b1.css",
-    "static/js/main.6a4a5476.js"
+    "static/js/main.bad5b543.js"
   ]
 }
