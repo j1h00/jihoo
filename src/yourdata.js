@@ -204,9 +204,42 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  educationHeading: "Education",
+  educations: [
+    {
+      icon: "",
+      period: "2015.03 ~ 2021.08",
+      title: "서울대학교 생명과학부 졸업",
+      content: [
+        "생명과학자를 위한 전산학개론",
+        "생물정보학개론",
+        "컴퓨터의 개념 및 실습",
+        "프로그래밍 연습",
+        "자료구조(청강)",
+      ],
+    },
+    {
+      icon: "",
+      period: "2020.12 ~ 2021.03",
+      title:
+        "공공데이터를 활용한 빅데이터 처리 실무 with Python (Seoul Software Academy)",
+      content: [
+        "pandas 데이터 처리 / 분석",
+        "matbplotlib 데이터 시각화",
+        "scikit-learn 머신러닝 기초",
+        "데이터 분석 / 머신러닝 직무 필수 지식 습득",
+      ],
+    },
+    {
+      icon: "",
+      period: "2021.07 ~ 현재",
+      title: "SSAFY (삼성 청년 SW 아카데미) 교육 중",
+      content: [
+        "1학기 : python, javasciprt 언어 및 django, Vue.js 웹 프레임워크 교육 수료",
+        "2학기 : 웹 개발 프로젝트를 진행 / 기획 및 프론트엔드 개발 담당",
+      ],
+    },
+  ],
   // End Promotion Section -----------------
 
   //   Contact Section --------------

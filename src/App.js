@@ -7,7 +7,7 @@ import Header from "./components/Header";
 import Work from "./components/Work";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Promotion from "./components/Promotion";
+import Education from "./components/Education";
 import Footer from "./components/Footer";
 
 // styles
@@ -22,7 +22,7 @@ export default function App() {
         <Work></Work>
         <About></About>
         <Skills></Skills>
-        <Promotion></Promotion>
+        <Education></Education>
         <Footer></Footer>
       </Layout>
     </div>
