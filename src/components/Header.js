@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
-import resumePDF from "../assets/Jihoo_resume2.pdf";
+import resumePDF from "../assets/Jihoo_resume_v0.2.pdf";
 
 const Header = () => {
   return (
