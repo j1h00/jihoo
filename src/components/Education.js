@@ -4,7 +4,7 @@ import data from "../yourdata";
 
 const Education = () => {
   return (
-    <div className="section">
+    <div className="section" id="education">
       <div className="container">
         <div className="education-container">
           <Fade bottom cascade>
