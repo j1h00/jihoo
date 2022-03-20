@@ -65,7 +65,7 @@ export default {
       imageSrc:
         "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb669ccc6-1fd4-431b-9617-516d0dd43c4a%2FVote_24_-_Chrome_2022-02-24_%EC%98%A4%ED%9B%84_7_29_08.png?table=block&id=1476ff87-8d36-4078-9014-d739cb83bc59&spaceId=c2f59d66-0e58-40d3-8d56-2c413940499e&width=2000&userId=94889d59-dc17-4b05-9c34-17e6f59afae1&cache=v2",
       //Project URL - Add Your Project Url Here
-      url: "https://gigantic-bag-3e7.notion.site/Vote24-1476ff878d3640789014d739cb83bc59",
+      url: "https://github.com/j1h00/project02_Survey_for_caregivers",
     },
     {
       title: "portfolio Toy-project", //Project Title - Add Your Project Title Here
