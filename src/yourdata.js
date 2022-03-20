@@ -81,11 +81,10 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    ' 안녕하세요. 신입 소프트웨어 엔지니어 / 프론트엔드 개발 직무 취업을 준비하는 박지후입니다. 생명과학부 전공 강의인 "생명과학자를 위한 전산학 개론"을 통해 처음 프로그래밍을 접하게 되었고, 이에 흥미를 느껴 개발 공부를 시작하게 되었습니다. 졸업 후엔 삼성 청년 SW 아카데미를 통해 웹 개발을 접하게 되었고, 현재는 특히 React 를 비롯한 프론트엔드 기술 공부를 이어가고 있습니다.  ',
+    "안녕하세요. 배움을 즐기는 Front-end Developer 박지후입니다. 새로운 지식을 습득하는 것을 좋아하며 습득이 빠른 편입니다. 또한 문제를 집요하게 파고드는 끈기가 저의 강점이라고 생각합니다. 뛰어난 선배 개발자들로부터 많은 것을 배우고 성장하고 싶습니다. ",
   aboutParaTwo:
-    "뛰어난 선배 개발자들 사이에서 많은 것을 배우고 성장하고 싶습니다. ",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "생명과학부 전공 강의인 '생명과학자를 위한 전산학 개론'을 통해 처음 프로그래밍을 접하게 되었고, 이에 흥미를 느껴 개발 공부를 시작하게 되었습니다. 졸업 후엔 SSAFY(삼성 청년 SW 아카데미) 를 통해 웹 개발을 공부하고 있습니다. 현재는 특히 Vanilla js, React 를 비롯한 프론트엔드 기술을 터득하며 신입 소프트웨어 엔지니어 or 프론트엔드 개발 직무 취업을 준비하고 있습니다. 저에 대한 자세한 정보는 이력서를 참고해주시면 감사하겠습니다.",
+  aboutParaThree: "",
   aboutImage: photo,
 
   //   End About Section ---------------------
@@ -233,7 +232,7 @@ export default {
     {
       icon: "",
       period: "2021.07 ~ 현재",
-      title: "SSAFY (삼성 청년 SW 아카데미) 교육 중",
+      title: "SSAFY (삼성 청년 SW 아카데미) 에서 공부 중",
       content: [
         "1학기 : python, javasciprt 언어 및 django, Vue.js 웹 프레임워크 교육 수료",
         "2학기 : 웹 개발 프로젝트를 진행 / 기획 및 프론트엔드 개발 담당",
