@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import data from "../yourdata";
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="section" id="contact">
       <div className="container">
         <div className="footer-container">
-          <Fade bottom cascade>
+          <Fade direction={"up"}>
             <h1>Contact</h1>
             <h2>{data.contactSubHeading}</h2>
           </Fade>

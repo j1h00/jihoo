@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import data from "../yourdata";
 import resumePDF from "../assets/Jihoo_resume_v0.3.pdf";
 
@@ -8,7 +8,7 @@ const Header = () => {
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <Fade bottom>
+          <Fade direction={"up"}>
             <h2>
               Hi, I'm {data.name}{" "}
               <span role="img" aria-label="Emoji">
@@ -35,10 +35,9 @@ const Header = () => {
               </h1>
             </div>
           </Fade>
-          <Fade bottom>
-            <p>{data.headerParagraph}</p>
-          </Fade>
-          <Fade bottom>
+          <p>{data.headerParagraph}</p>
+
+          <Fade direction={"up"}>
             <a
               href={resumePDF}
               className="primary-btn flex-center"

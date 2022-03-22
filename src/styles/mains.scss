@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import "./include-media.scss";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
 // Atoms
@@ -16,7 +16,7 @@
 @import "./footer.scss";
 
 * {
-  font-family: "Montserrat", "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 body {

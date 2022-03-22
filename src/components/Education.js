@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import data from "../yourdata";
 
 const Education = () => {
@@ -7,7 +7,7 @@ const Education = () => {
     <div className="section" id="education">
       <div className="container">
         <div className="education-container">
-          <Fade bottom cascade>
+          <Fade direction={"up"}>
             <h1>{data.educationHeading}</h1>
           </Fade>
           {data.educations.map(({ period, title, content }, index) => (
