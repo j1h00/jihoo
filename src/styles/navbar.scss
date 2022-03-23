@@ -14,6 +14,9 @@
     font-weight: 600;
   }
   .links-wrapper {
+    display: flex;
+    margin-left: 10px;
+
     button {
       text-decoration: none;
       padding: 10px;
@@ -27,6 +30,10 @@
       cursor: pointer;
       &:hover {
         opacity: 1;
+      }
+
+      @include media(">=phone", "<lgphone") {
+        padding: 5px;
       }
     }
     .active {

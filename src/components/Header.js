@@ -8,7 +8,7 @@ const Header = () => {
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <Fade direction={"up"}>
+          <Fade direction={"down"}>
             <h2>
               Hi, I'm {data.name}{" "}
               <span role="img" aria-label="Emoji">
@@ -16,7 +16,7 @@ const Header = () => {
               </span>
             </h2>
           </Fade>
-          <Fade bottom cascade>
+          <Fade direction={"down"}>
             <div className="heading-wrapper">
               <h1>
                 {data.headerTagline[0]
@@ -35,9 +35,12 @@ const Header = () => {
               </h1>
             </div>
           </Fade>
-          <p>{data.headerParagraph}</p>
 
-          <Fade direction={"up"}>
+          <Fade direction={"down"}>
+            <p>{data.headerParagraph}</p>
+          </Fade>
+
+          <Fade direction={"down"}>
             <a
               href={resumePDF}
               className="primary-btn flex-center"

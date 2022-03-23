@@ -38,9 +38,11 @@
     }
   }
   p {
-    width: 100%;
+    width: 75%;
     text-align: center;
     overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
 
     @include media(">=phone", "<lgphone") {
       font-size: 12px;

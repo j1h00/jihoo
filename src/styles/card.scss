@@ -11,12 +11,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.5s ease;
+    border-radius: 5px;
   }
 
   .hoverBlur {
-    backdrop-filter: blur(10px);
     filter: blur(4px);
     transition: 0.5s ease;
+    -webkit-backdrop-filter: blur(14px);
+
+    backdrop-filter: blur(14px);
+    border-radius: 10px;
   }
 
   .content {
@@ -32,6 +37,12 @@
     opacity: 0;
     transition: all 500ms ease-in-out;
     transform: translate(0, 20px);
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-radius: 10px;
+
     cursor: pointer;
     h1 {
       font-size: 20px;

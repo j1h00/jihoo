@@ -29,12 +29,9 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       <div
         className={isHovered ? "backgroundImage hoverBlur" : "backgroundImage"}
         style={{
-          backgroundImage:
-            "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
-            imgUrl +
-            ")",
+          backgroundImage: "url(" + imgUrl + ")",
         }}
-      ></div>
+      />
       <a
         className="content"
         href={projectLink ? projectLink : "#"}

@@ -9,8 +9,10 @@ const Skills = () => {
         <div className="skills-container">
           <Fade direction={"up"}>
             <h1>Skills</h1>
-            <div className="skills-grid">
-              {data.skills.map((skill, index) => (
+          </Fade>
+          <div className="skills-grid">
+            {data.skills.map((skill, index) => (
+              <Fade direction={"up"}>
                 <div className="skill" key={index}>
                   <div className="skill-header">
                     <img src={skill.img} alt="css" />
@@ -28,9 +30,9 @@ const Skills = () => {
                   </div>
                   <p>{skill.para}</p>
                 </div>
-              ))}
-            </div>
-          </Fade>
+              </Fade>
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -9,13 +9,13 @@ const Work = () => {
     <div className="section" id="work">
       <div className="container">
         <div className="work-wrapper">
-          <Fade direction={"up"}>
+          <Fade direction={"down"}>
             <h1>Work</h1>
           </Fade>
 
           <div className="grid">
-            <Fade direction={"up"}>
-              {data.projects.map((project, index) => (
+            {data.projects.map((project, index) => (
+              <Fade direction={index % 2 ? "right" : "left"}>
                 <Card
                   key={index}
                   heading={project.title}
@@ -23,8 +23,8 @@ const Work = () => {
                   imgUrl={project.imageSrc}
                   projectLink={project.url}
                 ></Card>
-              ))}
-            </Fade>
+              </Fade>
+            ))}
           </div>
         </div>
       </div>

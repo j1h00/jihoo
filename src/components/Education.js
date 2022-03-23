@@ -13,16 +13,20 @@ const Education = () => {
           {data.educations.map(({ period, title, content }, index) => (
             <div key={index} className="education-para">
               <section>
-                <h3>{title}</h3>
-                <p>{period}</p>
+                <Fade direction={"left"}>
+                  <h3>{title}</h3>
+                  <p>{period}</p>
+                </Fade>
               </section>
-              <ul>
-                {content.map((text, index) => (
-                  <li key={index}>
-                    <p>{text}</p>
-                  </li>
-                ))}
-              </ul>
+              <Fade direction={"right"}>
+                <ul>
+                  {content.map((text, index) => (
+                    <li key={index}>
+                      <p>{text}</p>
+                    </li>
+                  ))}
+                </ul>
+              </Fade>
             </div>
           ))}
         </div>

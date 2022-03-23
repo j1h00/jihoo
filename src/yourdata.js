@@ -24,6 +24,10 @@ import velog from "./assets/velog.jpg";
 import photo from "./assets/photo0.jpg";
 import j1h00 from "./assets/j1h00.jpg";
 
+// images
+import project1 from "./assets/project1.png";
+import project2 from "./assets/project2.png";
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -43,7 +47,8 @@ export default {
     "프론트엔드 개발을 공부하고 있습니다. 새로운 지식을 습득하는 것을 좋아하며, 꾸준히 성장하는 개발자가 되고 싶습니다.",
 
   //Contact Email
-  contactEmail: "guruboy@snu.ac.kr / 010-4159-7223",
+  contactEmail: "guruboy@snu.ac.kr",
+  contactNumber: "010-4159-7223",
 
   // End Header Details -----------------------
 
@@ -53,8 +58,7 @@ export default {
       title: "MOOOVIE", //Project Title - Add Your Project Title Here
       para: "추천 기능을 포함한 영화 커뮤니티 웹 서비스 with django & Vue.js", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://raw.githubusercontent.com/j1h00/project01_Movie_Community/master/README.assets/image-20211207220044881.png",
+      imageSrc: project1,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/j1h00/project01_Movie_Community",
     },
@@ -62,8 +66,7 @@ export default {
       title: "Vote 24", //Project Title - Add Your Project Title Here
       para: "병원 이용객, 그 중에서도 특히 중증 환자를 돌보느라 본인의 몸을 챙기지 못하는 보호자들을 위한 건강 설문 플랫폼. ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb669ccc6-1fd4-431b-9617-516d0dd43c4a%2FVote_24_-_Chrome_2022-02-24_%EC%98%A4%ED%9B%84_7_29_08.png?table=block&id=1476ff87-8d36-4078-9014-d739cb83bc59&spaceId=c2f59d66-0e58-40d3-8d56-2c413940499e&width=2000&userId=94889d59-dc17-4b05-9c34-17e6f59afae1&cache=v2",
+      imageSrc: project2,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/j1h00/project02_Survey_for_caregivers",
     },
@@ -98,19 +101,19 @@ export default {
       img: htmlIcon,
       para: "semantic tag 에 대해 이해하고 있으며, 여러 tag 의 종류와 활용할 수 있는 속성들에 대해 알고 있습니다.",
       color: "#E34F26",
-      level: 50,
+      level: 75,
     },
     {
       img: cssIcon,
       para: "원하는 레이아웃을 구성할 수 있으며, CSS selector, animation, media query 등을 활용할 수 있습니다. 또한 bootstrap, tailwind CSS 라이브러리를 경험해봤습니다.",
       color: "#1572B6",
-      level: 50,
+      level: 75,
     },
     {
       img: jsIcon,
       para: "기본적인 DOM 조작, AJAX 통신, Concurrency model, Callback 함수, variable hoisting 에 대한 이해와, Promise 객체, async & await, Class 등의 javascript ES6 문법에 대해서도 알고 활용할 수 있습니다.",
       color: "#F7DF1E",
-      level: 75,
+      level: 50,
     },
     {
       img: vueIcon,
@@ -122,7 +125,7 @@ export default {
       img: reactIcon,
       para: "UI 를 컴포넌트로 계층화하여 구현할 수 있고, React 컴포넌트의 Lifecycle 에 대해 알고 있으며, state & effect hook 을 활용하고 custom hook 을 정의할 수 있습니다. ",
       color: "#61DAFB",
-      level: 50,
+      level: 75,
     },
     {
       img: reduxIcon,
@@ -140,7 +143,7 @@ export default {
       img: pythonIcon,
       para: 'pygame 라이브러리와 객체 지향 프로그래밍을 통해 간단한 게임을 개발해 본 경험이 있으며, 알고리즘 구현을 통해 문제를 해결할 수 있습니다. 또한 "생물학자를 위한 전산학 개론" 강의에서 유전자 데이터를 분석해 본 경험이 있습니다.',
       color: "#3776AB",
-      level: 50,
+      level: 75,
     },
     {
       img: djangoIcon,
