@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useRef, useState } from "react";
 import { Fade } from "react-awesome-reveal";
 import data from "../yourdata";
 
@@ -12,19 +12,30 @@ const Skills = () => {
           </Fade>
           <div className="skills-grid">
             {data.skills.map((skill, index) => (
-              <Fade direction={"up"}>
-                <div className="skill" key={index}>
+              <Fade direction={"up"} key={index}>
+                <div className="skill">
                   <div className="skill-header">
-                    <img src={skill.img} alt="css" />
-                    <div className="progress-background">
-                      <div
-                        className="progress"
+                    <img src={skill.img} alt={skill.name} />
+                    <div className="name-container">
+                      <p
                         style={{
-                          width: `${skill.level}` + "%",
-                          backgroundColor: skill.color,
+                          color: skill.color,
                         }}
                       >
-                        <span>{skill.level}%</span>
+                        {skill.name}
+                      </p>
+                    </div>
+                    <div className="header-container">
+                      <div className="progress-background">
+                        <div
+                          className="progress"
+                          style={{
+                            width: `${skill.level}` + "%",
+                            backgroundColor: skill.color,
+                          }}
+                        >
+                          <span>{skill.level}%</span>
+                        </div>
                       </div>
                     </div>
                   </div>

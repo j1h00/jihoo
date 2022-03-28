@@ -1,28 +1,30 @@
 import React, { useEffect, useRef, useState } from "react";
 
+function useHover(ref) {
+  const [value, setValue] = useState(false);
+  const handleMouseOver = () => {
+    setValue(true);
+  };
+  const handleMouseOut = () => setValue(false);
+
+  useEffect(() => {
+    const node = ref.current;
+    if (node) {
+      node.addEventListener("mouseover", handleMouseOver);
+      node.addEventListener("mouseout", handleMouseOut);
+      return () => {
+        node.removeEventListener("mouseover", handleMouseOver);
+        node.removeEventListener("mouseout", handleMouseOut);
+      };
+    }
+  }, []);
+
+  return value;
+}
+
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
-  function useHover() {
-    const [value, setValue] = useState(false);
-    const ref = useRef(null);
-    const handleMouseOver = () => setValue(true);
-    const handleMouseOut = () => setValue(false);
-
-    useEffect(() => {
-      const node = ref.current;
-      if (node) {
-        node.addEventListener("mouseover", handleMouseOver);
-        node.addEventListener("mouseout", handleMouseOut);
-        return () => {
-          node.removeEventListener("mouseover", handleMouseOver);
-          node.removeEventListener("mouseout", handleMouseOut);
-        };
-      }
-    }, []);
-
-    return [ref, value];
-  }
-
-  const [hoverRef, isHovered] = useHover();
+  const hoverRef = useRef(null);
+  const isHovered = useHover(hoverRef);
 
   return (
     <div className="card" ref={hoverRef}>
@@ -32,7 +34,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           backgroundImage: "url(" + imgUrl + ")",
         }}
       />
-      <a
+      <div
         className="content"
         href={projectLink ? projectLink : "#"}
         target="_blank"
@@ -42,7 +44,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
         <button rel="noopener noreferrer" className="btn">
           Explore
         </button>
-      </a>
+      </div>
     </div>
   );
 };

@@ -15,9 +15,8 @@ const Work = () => {
 
           <div className="grid">
             {data.projects.map((project, index) => (
-              <Fade direction={index % 2 ? "right" : "left"}>
+              <Fade key={index} direction={index % 2 ? "right" : "left"}>
                 <Card
-                  key={index}
                   heading={project.title}
                   paragraph={project.para}
                   imgUrl={project.imageSrc}

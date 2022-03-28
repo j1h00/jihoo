@@ -47,7 +47,9 @@ const Header = () => {
               download="Jihoo_resume.pdf"
             >
               resume
-              <span className="material-icons-outlined">file_download</span>
+              <span className="bounce material-icons-outlined">
+                file_download
+              </span>
             </a>
           </Fade>
         </div>
