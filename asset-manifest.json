@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/jihoo/static/css/main.838e1a47.css",
-    "main.js": "/jihoo/static/js/main.2d4247fa.js",
+    "main.js": "/jihoo/static/js/main.03572d2b.js",
     "static/js/787.128fc6e9.chunk.js": "/jihoo/static/js/787.128fc6e9.chunk.js",
     "static/media/photo0.jpg": "/jihoo/static/media/photo0.d58888786e7552817d00.jpg",
     "static/media/project1.png": "/jihoo/static/media/project1.a0f5178601916bdac6a6.png",
     "static/media/project2.png": "/jihoo/static/media/project2.5159f8ce4a962bd56add.png",
-    "static/media/Jihoo_resume_v0.4.pdf": "/jihoo/static/media/Jihoo_resume_v0.4.7b2a659c4463d99936e1.pdf",
+    "static/media/Jihoo_resume_v0.5.pdf": "/jihoo/static/media/Jihoo_resume_v0.5.de4019bfa5de61f16e9a.pdf",
     "static/media/j1h00.jpg": "/jihoo/static/media/j1h00.0129510bd978698e0b93.jpg",
     "static/media/react.svg": "/jihoo/static/media/react.e94ebdf90bd29efb54e5c723b10e216a.svg",
     "static/media/dribbble.svg": "/jihoo/static/media/dribbble.a97b66e1f2be1f38ab5b1203ac1dd2fd.svg",
@@ -24,11 +24,11 @@
     "static/media/html.svg": "/jihoo/static/media/html.cf23f1e90435a349bd297713a56a4d6f.svg",
     "static/media/vue.svg": "/jihoo/static/media/vue.4b67b3b55026c1904ac85983d391d8ac.svg",
     "main.838e1a47.css.map": "/jihoo/static/css/main.838e1a47.css.map",
-    "main.2d4247fa.js.map": "/jihoo/static/js/main.2d4247fa.js.map",
+    "main.03572d2b.js.map": "/jihoo/static/js/main.03572d2b.js.map",
     "787.128fc6e9.chunk.js.map": "/jihoo/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.838e1a47.css",
-    "static/js/main.2d4247fa.js"
+    "static/js/main.03572d2b.js"
   ]
 }
