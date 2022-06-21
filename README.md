@@ -1,7 +1,5 @@
 # :link: [Jihoo's Web Portfolio](https://j1h00.github.io/jihoo/)
 
-
-
 > https://github.com/chetanverma16/react-portfolio-template
 
 - 위 템플릿을 활용하여 제작.

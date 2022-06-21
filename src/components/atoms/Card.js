@@ -34,17 +34,16 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           backgroundImage: "url(" + imgUrl + ")",
         }}
       />
-      <div
+      <a
+        rel="noopener noreferrer"
         className="content"
         href={projectLink ? projectLink : "#"}
         target="_blank"
       >
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
-        <button rel="noopener noreferrer" className="btn">
-          Explore
-        </button>
-      </div>
+        <button className="btn">Explore</button>
+      </a>
     </div>
   );
 };

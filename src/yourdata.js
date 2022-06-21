@@ -22,11 +22,13 @@ import githubIcon from "./assets/github.svg";
 import dribbble from "./assets/dribbble.svg";
 import velog from "./assets/velog.jpg";
 import photo from "./assets/photo0.jpg";
-import j1h00 from "./assets/j1h00.jpg";
 
 // images
-import project1 from "./assets/project1.png";
-import project2 from "./assets/project2.png";
+import project00 from "./assets/project00.jpg";
+import project01 from "./assets/project01.png";
+import project02 from "./assets/project02.png";
+import project03 from "./assets/project03.png";
+import project04 from "./assets/project04.png";
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -55,28 +57,44 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "MOOOVIE", //Project Title - Add Your Project Title Here
-      para: "추천 기능을 포함한 영화 커뮤니티 웹 서비스 with django & Vue.js", // Add Your Service Type Here
+      title: "Java Thread Dump Analyzer", //Project Title - Add Your Project Title Here
+      para: "자바 쓰레드 덤프 수집 / 분석기", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: project1,
+      imageSrc: project04,
       //Project URL - Add Your Project Url Here
-      url: "https://github.com/j1h00/project01_Movie_Community",
+      url: "https://github.com/j1h00/project04_JTDA",
+    },
+    {
+      title: "JRStock", //Project Title - Add Your Project Title Here
+      para: "굶주린 주식 어린이들을 위한 백테스팅 서비스", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: project03,
+      //Project URL - Add Your Project Url Here
+      url: "https://github.com/j1h00/project03_Backtest_service",
     },
     {
       title: "Vote 24", //Project Title - Add Your Project Title Here
       para: "병원 이용객, 그 중에서도 특히 중증 환자를 돌보느라 본인의 몸을 챙기지 못하는 보호자들을 위한 건강 설문 플랫폼. ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: project2,
+      imageSrc: project02,
       //Project URL - Add Your Project Url Here
       url: "https://github.com/j1h00/project02_Survey_for_caregivers",
+    },
+    {
+      title: "MOOOVIE", //Project Title - Add Your Project Title Here
+      para: "추천 기능을 포함한 영화 커뮤니티 웹 서비스 with django & Vue.js", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: project01,
+      //Project URL - Add Your Project Url Here
+      url: "https://github.com/j1h00/project01_Movie_Community",
     },
     {
       title: "portfolio Toy-project", //Project Title - Add Your Project Title Here
       para: "나만의 포트폴리오, JS & CSS animation 을 곁들인", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: j1h00,
+      imageSrc: project00,
       //Project URL - Add Your Project Url Here
-      url: "https://j1h00.github.io/portfolio/",
+      url: "https://j1h00.github.io/toy-introduction/",
     },
   ],
 
@@ -86,8 +104,9 @@ export default {
   aboutParaOne:
     "안녕하세요. 배움을 즐기는 Front-end Developer 박지후입니다. 새로운 지식을 습득하는 것을 좋아하며 습득이 빠른 편입니다. 또한 문제를 집요하게 파고드는 끈기가 저의 강점이라고 생각합니다. 뛰어난 선배 개발자들로부터 많은 것을 배우고 성장하고 싶습니다. ",
   aboutParaTwo:
-    "생명과학부 전공 강의인 '생명과학자를 위한 전산학 개론'을 통해 처음 프로그래밍을 접하게 되었고, 이에 흥미를 느껴 개발 공부를 시작하게 되었습니다. 졸업 후엔 SSAFY(삼성 청년 SW 아카데미) 를 통해 웹 개발을 공부하고 있습니다. 현재는 특히 Vanilla js, React 를 비롯한 프론트엔드 기술을 터득하며 신입 소프트웨어 엔지니어 or 프론트엔드 개발 직무 취업을 준비하고 있습니다. 저에 대한 자세한 정보는 이력서를 참고해주시면 감사하겠습니다.",
-  aboutParaThree: "",
+    "지난 1년간 삼성 청년 SW 아카데미의 1, 2학기 교육을 모두 이수하며 알고리즘과 같은 컴퓨터공학 지식뿐만 아니라, 세 번의 프로젝트를 통해 개발 경험을 쌓았습니다. 한 프로젝트 당 주어진 7주간의 기간 동안 서비스 기획부터 배포까지 직접 경험하며, 서비스 개발의 한 사이클을 경험하였고, 팀 협업과 스프린트 단위의 애자일 개발 프로세스를 경험하기도 했습니다. ",
+  aboutParaThree:
+    "그중에서도, 프론트엔드 개발을 담당하며, HTML, CSS, JavaScript 와 같은 기본적인 언어뿐만 아니라, TypeScript, React 등의 프론트엔드 기술 스택을 학습하며 이를 빠르게 습득하여 프로젝트에 적용했습니다. 이 경험을 바탕으로 앞으로도 프론트엔드 분야의 빠르게 변화하는 트렌드에 흔들리지 않고 꾸준히 성장하는 프론트엔드 개발자가 되는 것이 목표입니다.",
   aboutImage: photo,
 
   //   End About Section ---------------------
@@ -123,21 +142,21 @@ export default {
       name: "Vue.js",
       para: "Vue의 ViewModel로서의 역할, Vue 인스턴스의 Lifecycle 등 공식 문서에 명시된 필수 지식에 대해 알고 있으며, Vue Router, Vuex 라이브러리를 이해하고 사용할 수 있습니다.",
       color: "#4FC08D",
-      level: 75,
+      level: 50,
     },
     {
       img: reactIcon,
       name: "React",
       para: "UI 를 컴포넌트로 계층화하여 구현할 수 있고, React 컴포넌트의 Lifecycle 에 대해 알고 있으며, state & effect hook 을 활용하고 custom hook 을 정의할 수 있습니다. ",
       color: "#61DAFB",
-      level: 75,
+      level: 50,
     },
     {
       img: reduxIcon,
       name: "Redux",
       para: 'Flux architecture & "one-way data flow" 을 이해했습니다. store 와 reducer 를 선언하여 상태관리에 사용할 수 있고, react-redux 와 redux-toolkit 을 경험했습니다. ',
       color: "#764ABC",
-      level: 50,
+      level: 25,
     },
     {
       img: nextjsIcon,
@@ -151,7 +170,7 @@ export default {
       name: "Python",
       para: 'pygame 라이브러리와 객체 지향 프로그래밍을 통해 간단한 게임을 개발해 본 경험이 있으며, 알고리즘 구현을 통해 문제를 해결할 수 있습니다. 또한 "생물학자를 위한 전산학 개론" 강의에서 유전자 데이터를 분석해 본 경험이 있습니다.',
       color: "#3776AB",
-      level: 75,
+      level: 50,
     },
     {
       img: djangoIcon,
@@ -160,27 +179,27 @@ export default {
       color: "#092E20",
       level: 50,
     },
-    {
-      img: pandasIcon,
-      name: "pandas",
-      para: '새싹(Seoul Software Academy, SeSAC) 의 "공공데이터를 활용한 빅데이터 처리 실무 with Python" 강의를 수료했습니다. 이를 통해 pandas 를 이용한 데이터 분석과 머신러닝을 위한 전처리, 그리고 scikit-learn 라이브러리를 활용한 머신러닝까지 경험했습니다.',
-      color: "#150458",
-      level: 50,
-    },
-    {
-      img: dockerIcon,
-      name: "Docker",
-      para: "docker image, container 의 개념을 알고 실행할 수 있습니다. Dockerfile, docker-compose 를 작성할 수 있으며, Next.js, Nginx, Node, MySQL 컨테이너를 구동하여 배포해 본 경험이 있습니다.",
-      color: "#2496ED",
-      level: 50,
-    },
-    {
-      img: gitIcon,
-      name: "Git",
-      para: "Git-flow 브랜치 전략을 도입하여 master, develop, feature 브랜치를 구분하여 관리한 경험이 있고, Jira 연동과 커밋 메세지 컨벤션을 활용하여 팀원들과 협업했습니다. Merge Request 를 통해 팀원들과 서로의 코드를 리뷰하고자 노력했습니다. ",
-      color: "#F05032",
-      level: 50,
-    },
+    // {
+    //   img: pandasIcon,
+    //   name: "pandas",
+    //   para: '새싹(Seoul Software Academy, SeSAC) 의 "공공데이터를 활용한 빅데이터 처리 실무 with Python" 강의를 수료했습니다. 이를 통해 pandas 를 이용한 데이터 분석과 머신러닝을 위한 전처리, 그리고 scikit-learn 라이브러리를 활용한 머신러닝까지 경험했습니다.',
+    //   color: "#150458",
+    //   level: 50,
+    // },
+    // {
+    //   img: dockerIcon,
+    //   name: "Docker",
+    //   para: "docker image, container 의 개념을 알고 실행할 수 있습니다. Dockerfile, docker-compose 를 작성할 수 있으며, Next.js, Nginx, Node, MySQL 컨테이너를 구동하여 배포해 본 경험이 있습니다.",
+    //   color: "#2496ED",
+    //   level: 50,
+    // },
+    // {
+    //   img: gitIcon,
+    //   name: "Git",
+    //   para: "Git-flow 브랜치 전략을 도입하여 master, develop, feature 브랜치를 구분하여 관리한 경험이 있고, Jira 연동과 커밋 메세지 컨벤션을 활용하여 팀원들과 협업했습니다. Merge Request 를 통해 팀원들과 서로의 코드를 리뷰하고자 노력했습니다. ",
+    //   color: "#F05032",
+    //   level: 50,
+    // },
     // {
     //   img: javaIcon,
     //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
@@ -272,7 +291,7 @@ export default {
     },
     {
       img: dribbble,
-      url: "https://j1h00.github.io/portfolio/",
+      url: "https://j1h00.github.io/toy-introduction/",
     },
   ],
 

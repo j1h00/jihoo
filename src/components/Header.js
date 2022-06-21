@@ -21,17 +21,17 @@ const Header = () => {
               <h1>
                 {data.headerTagline[0]
                   ? data.headerTagline[0]
-                  : "Building digital"}
+                  : "배움을 즐기는"}
               </h1>
               <h1>
                 {data.headerTagline[1]
                   ? data.headerTagline[1]
-                  : "products, brands"}
+                  : "Front-end Web Developer"}
               </h1>
               <h1>
                 {data.headerTagline[2]
                   ? data.headerTagline[2]
-                  : "and experience"}
+                  : "박지후입니다."}
               </h1>
             </div>
           </Fade>
@@ -44,7 +44,7 @@ const Header = () => {
             <a
               href={resumePDF}
               className="primary-btn flex-center"
-              download="Jihoo_resume.pdf"
+              download="Jihoo_resume_v1.0.pdf"
             >
               resume
               <span className="bounce material-icons-outlined">
