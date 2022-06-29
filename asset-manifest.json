@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/jihoo/static/css/main.838e1a47.css",
-    "main.js": "/jihoo/static/js/main.aeccd25b.js",
+    "main.js": "/jihoo/static/js/main.0af12b94.js",
     "static/js/787.128fc6e9.chunk.js": "/jihoo/static/js/787.128fc6e9.chunk.js",
+    "static/media/Jihoo_resume_v1.0.pdf": "/jihoo/static/media/Jihoo_resume_v1.0.846d0683c81720040d02.pdf",
     "static/media/photo0.jpg": "/jihoo/static/media/photo0.d58888786e7552817d00.jpg",
-    "static/media/Jihoo_resume_v0.5.pdf": "/jihoo/static/media/Jihoo_resume_v0.5.de4019bfa5de61f16e9a.pdf",
     "static/media/project02.png": "/jihoo/static/media/project02.28edb85dae4ce9e1b5f1.png",
     "static/media/project00.jpg": "/jihoo/static/media/project00.0129510bd978698e0b93.jpg",
     "static/media/project03.png": "/jihoo/static/media/project03.abc83fd663b093035d4c.png",
@@ -22,11 +22,11 @@
     "static/media/html.svg": "/jihoo/static/media/html.cf23f1e90435a349bd297713a56a4d6f.svg",
     "static/media/vue.svg": "/jihoo/static/media/vue.4b67b3b55026c1904ac85983d391d8ac.svg",
     "main.838e1a47.css.map": "/jihoo/static/css/main.838e1a47.css.map",
-    "main.aeccd25b.js.map": "/jihoo/static/js/main.aeccd25b.js.map",
+    "main.0af12b94.js.map": "/jihoo/static/js/main.0af12b94.js.map",
     "787.128fc6e9.chunk.js.map": "/jihoo/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.838e1a47.css",
-    "static/js/main.aeccd25b.js"
+    "static/js/main.0af12b94.js"
   ]
 }
